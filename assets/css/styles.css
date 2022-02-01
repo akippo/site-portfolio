@@ -17,6 +17,15 @@ section {
     min-height: 500px;
     padding: 64px 0;
 }
+/* header */
+header{
+    height: 120px;
+    padding: 20px 0;
+}
+.nav_header img{
+    width: 140px;
+    height: auto;
+}
 /* section-top */
 #section_top{
     position: relative;

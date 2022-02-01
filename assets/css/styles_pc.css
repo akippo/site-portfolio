@@ -11,4 +11,19 @@
         font-weight: bold;
         letter-spacing: 12px;
     }
+    #top-time-hours{
+        top: 0;
+        left: 80px;
+    }
+    #top-time-minutes{
+        top: 60px;
+        right: 0;
+    }
+    #top-time-seconds{
+        bottom: 0;
+        right: 120px;
+    }
+    h1{
+        font-size: 60px;
+    }
 }
