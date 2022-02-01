@@ -1,0 +1,15 @@
+/* Case */
+
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.inner {
+    padding: 0 6%;
+    margin: 0 auto;
+}
+
+section {
+    min-height: 500px;
+    padding: 64px 0;
+}

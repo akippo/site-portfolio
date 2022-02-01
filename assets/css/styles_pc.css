@@ -1,0 +1,8 @@
+@media screen and (min-width:1024px) {
+
+    /*　for PC　*/
+    .inner {
+        max-width: 936px;
+        margin: 0 auto;
+    }
+}
