@@ -13,7 +13,7 @@ let scroll = new SmoothScroll('a[href*="#"]', {
     let nowminutes = now.getMinutes();
     let nowseconds = now.getSeconds();
   
-    let text = nowhour + "：" + nowminutes + "：" + nowseconds + elapsed; 
+    let text = nowhour + "：" + nowminutes + "：" + nowseconds + elapsed + "test"; 
     
     return text;
   }
