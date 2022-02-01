@@ -6,12 +6,9 @@
         margin: 0 auto;
     }
     /* section-top */
-    #top-time{
-        font-size: 80px;
+    .top-time{
+        font-size: 160px;
         font-weight: bold;
         letter-spacing: 12px;
-    }
-    .top-unit{
-        font-size: 40px;
     }
 }

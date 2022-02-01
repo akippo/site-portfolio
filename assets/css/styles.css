@@ -18,12 +18,26 @@ section {
     padding: 64px 0;
 }
 /* section-top */
-#top-time{
-    font-size: 40px;
+#section_top{
+    position: relative;
+}
+.top-time{
+    z-index: -1;
+    position: absolute;
+    color: lightgray;
+    font-size: 80px;
     font-weight: bold;
     letter-spacing: 12px;
 }
-.top-unit{
-    font-size: 32px;
-    font-weight: bold;
+#top-time-hours{
+    top: 0;
+    left: 0;
+}
+#top-time-minutes{
+    top: 60px;
+    right: 0;
+}
+#top-time-seconds{
+    bottom: 0;
+    right: 80px;
 }
