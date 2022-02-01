@@ -6,12 +6,13 @@ let scroll = new SmoothScroll('a[href*="#"]', {
   document.getElementById("header-time").innerHTML = showTime();
   
   function showTime() {
-    var now = new Date();
-    var nowhour = now.getHours();
-    var nowminutes = now.getMinutes();
-    var nowseconds = now.getSeconds();
+    let now = new Date();
+    let start = Date();
+    let nowhour = now.getHours();
+    let nowminutes = now.getMinutes();
+    let nowseconds = now.getSeconds();
   
-    var text = nowhour + "：" + nowminutes + "：" + nowseconds; 
+    let text = nowhour + "：" + nowminutes + "：" + nowseconds; 
     
     return text;
   }
