@@ -6,14 +6,14 @@ let scroll = new SmoothScroll('a[href*="#"]', {
   document.getElementById("header-time").innerHTML = showTime();
   
   function showTime() {
-    let now = new Date();
-    let start = Date.parse('30 Oct 1990 12:18:00');
-    let elapsed = now.getTime() - start.getTime() 
-    let nowhour = now.getHours();
-    let nowminutes = now.getMinutes();
-    let nowseconds = now.getSeconds();
+    let now = Date.now();
+    let start = Date.parse('1990-10-30T12:18:00');
+    let elapsed = now - start;
+    const seconds = Math.floor(elapsed/1000)%60;
+    const minutes = Math.floor(elapsed/1000/60)%60;
+    const hours = Math.floor(elapsed/1000/3600);
   
-    let text = nowhour + "：" + nowminutes + "：" + nowseconds + elapsed + "test"; 
+    let text = hours + "時間";
     
     return text;
   }
