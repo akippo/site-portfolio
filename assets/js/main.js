@@ -3,7 +3,7 @@ let scroll = new SmoothScroll('a[href*="#"]', {
   header: '[data-scroll-header]'
 });
 
-  document.getElementById("header-time").innerHTML = showTime();
+  document.getElementById("top-time").innerHTML = showTime();
   
   function showTime() {
     let now = Date.now();
@@ -13,7 +13,7 @@ let scroll = new SmoothScroll('a[href*="#"]', {
     const minutes = Math.floor(elapsed/1000/60)%60;
     const hours = Math.floor(elapsed/1000/3600);
   
-    let text = hours + "時間";
+    let text = hours;
     
     return text;
   }
